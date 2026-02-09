@@ -7,11 +7,11 @@
     <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
-    <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>50</MaxPlayers>
+    <OnlineMode>OFFLINE</OnlineMode>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>1024</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
-    <MaxBackupSaves>10</MaxBackupSaves>
+    <MaxBackupSaves>0</MaxBackupSaves>
     <MaxGridSize>0</MaxGridSize>
     <MaxBlocksPerPlayer>0</MaxBlocksPerPlayer>
     <TotalPCU>0</TotalPCU>
@@ -72,8 +72,6 @@
     <EnableWolfs>false</EnableWolfs>
     <EnableSpiders>false</EnableSpiders>
     <FloraDensityMultiplier>1</FloraDensityMultiplier>
-    <EnableStructuralSimulation>false</EnableStructuralSimulation>
-    <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
     <BlockTypeLimits>
       <dictionary />
     </BlockTypeLimits>
@@ -175,6 +173,15 @@
     <EnableShareInertiaTensor>false</EnableShareInertiaTensor>
     <EnableUnsafePistonImpulses>false</EnableUnsafePistonImpulses>
     <EnableUnsafeRotorTorques>false</EnableUnsafeRotorTorques>
+    <EnableRadiation>true</EnableRadiation>
+    <SolarRadiationIntensity>0</SolarRadiationIntensity>
+    <ResetForageableItems>true</ResetForageableItems>
+    <ResetForageableItemsTimeM>30</ResetForageableItemsTimeM>
+    <ResetForageableItemsDistance>3000</ResetForageableItemsDistance>
+    <FoodConsumptionRate>0</FoodConsumptionRate>
+    <EnableSurvivalBuffs>true</EnableSurvivalBuffs>
+    <EnableReducedStatsOnRespawn>true</EnableReducedStatsOnRespawn>
+    <RandomizeSeed>false</RandomizeSeed>
   </Settings>
   <Mods>
     <ModItem FriendlyName="[QoL] Production Quota">
@@ -217,7 +224,7 @@
       <PublishedFileId>1939935505</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="AQD - Armored Thrusters">
+    <ModItem FriendlyName="AQD - Armored Thrusters (Deprecated)">
       <Name>1810920525.sbm</Name>
       <PublishedFileId>1810920525</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -534,5 +541,5 @@
     </ModItem>
   </Mods>
   <SessionName>RingsOfSaturnSubvival</SessionName>
-  <LastSaveTime>2025-07-23T16:01:49.5086544-05:00</LastSaveTime>
+  <LastSaveTime>2026-02-09T02:29:34.7113712-06:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>

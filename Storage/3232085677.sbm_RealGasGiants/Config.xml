@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
 <RealGasGiantsSettingsConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <OverrideFromConfig>false</OverrideFromConfig>
+  <OverrideFromConfig>true</OverrideFromConfig>
+  <AllowChatCommands>true</AllowChatCommands>
   <GasGiantBlocksSun>true</GasGiantBlocksSun>
-  <GasGiantsHaveAtmoGlobal>true</GasGiantsHaveAtmoGlobal>
+  <GasGiantAirDensity>30</GasGiantAirDensity>
+  <GasGiantWindSpeed>200</GasGiantWindSpeed>
   <SetGlobalNoAsteroids>true</SetGlobalNoAsteroids>
   <CanSpawnOnGasGiants>false</CanSpawnOnGasGiants>
+  <EnableGasGiantWindTurbines>true</EnableGasGiantWindTurbines>
   <UseLensFlareOccluder>true</UseLensFlareOccluder>
   <RingParticleLevel>1</RingParticleLevel>
   <GasGiantInfoList>
@@ -13,27 +16,28 @@
       <Radius>60268</Radius>
       <PlanetColor X="201" Y="144" Z="57" />
       <PlanetSkin>DefaultSaturn</PlanetSkin>
-      <AtmoInfo>
-        <AirDensity>3</AirDensity>
-        <OxygenDensity>0</OxygenDensity>
-        <WindSpeed>200</WindSpeed>
-      </AtmoInfo>
-      <RingInfo>
-        <HasRing>true</HasRing>
-        <RingSkin>Default2</RingSkin>
-        <RingNormal X="1" Y="10" Z="0.5" />
-        <RingColor X="10" Y="10" Z="10" />
-        <RingLightMult>0.1</RingLightMult>
-        <RingShadowMult>0.1</RingShadowMult>
-        <RingInnerScale>1.2</RingInnerScale>
-        <RingOuterScale>2.5</RingOuterScale>
-        <RingLayerSpacingScale>0.001</RingLayerSpacingScale>
-        <RingRotationPeriodSeconds>72000</RingRotationPeriodSeconds>
-        <ConstrainNearbyAsteroidsToRing>true</ConstrainNearbyAsteroidsToRing>
-        <ShadowOnRingEnabled>true</ShadowOnRingEnabled>
-        <EnabledDraw>true</EnabledDraw>
-        <EnabledParticle>true</EnabledParticle>
-      </RingInfo>
+      <OxygenDensity>0</OxygenDensity>
+      <RingsInfo>
+        <RingConfigInfo>
+          <HasRing>true</HasRing>
+          <RingSkin>Default2</RingSkin>
+		  <RingNormal X="1" Y="10" Z="0.5" />
+		  <RingColor X="10" Y="10" Z="10" />
+          <RingLightMult>0.1</RingLightMult>
+          <RingShadowMult>0.1</RingShadowMult>
+          <RingInnerScale>1.2</RingInnerScale>
+          <RingOuterScale>2.5</RingOuterScale>
+          <RingLayerSpacingScale>0.001</RingLayerSpacingScale>
+          <RingRotationPeriodSeconds>72000</RingRotationPeriodSeconds>
+          <ConstrainNearbyAsteroidsToRing>true</ConstrainNearbyAsteroidsToRing>
+          <ShadowOnRingEnabled>true</ShadowOnRingEnabled>
+          <CollectRingResources>true</CollectRingResources>
+          <CollectResourceRingSubtypeId>Ice</CollectResourceRingSubtypeId>
+          <CollectResourceRingAmount>100</CollectResourceRingAmount>
+          <EnabledDraw>true</EnabledDraw>
+          <EnabledParticle>true</EnabledParticle>
+        </RingConfigInfo>
+      </RingsInfo>
       <InteriorInfo>
         <AsteroidRemoval>true</AsteroidRemoval>
         <PressureDamagePlayers>true</PressureDamagePlayers>
@@ -45,9 +49,6 @@
         <CollectResourceUpperAmount>1000</CollectResourceUpperAmount>
         <CollectResourceLowerSubtypeId>Silicon</CollectResourceLowerSubtypeId>
         <CollectResourceLowerAmount>1000</CollectResourceLowerAmount>
-        <CollectRingResources>true</CollectRingResources>
-        <CollectResourceRingSubtypeId>Ice</CollectResourceRingSubtypeId>
-        <CollectResourceRingAmount>100</CollectResourceRingAmount>
       </ResourceInfo>
       <GravityStrength>2</GravityStrength>
       <GravityFalloff>28</GravityFalloff>

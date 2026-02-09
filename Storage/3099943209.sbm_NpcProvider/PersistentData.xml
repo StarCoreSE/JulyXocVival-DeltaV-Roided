@@ -3,15 +3,15 @@
   <EconomyModifiers>
     <EconomyStats>
       <FactionTag>ECO-NPC</FactionTag>
-      <Modifier>1</Modifier>
+      <Modifier>1.01</Modifier>
     </EconomyStats>
     <EconomyStats>
       <FactionTag>GLF-NPC</FactionTag>
-      <Modifier>1</Modifier>
+      <Modifier>1.01</Modifier>
     </EconomyStats>
     <EconomyStats>
       <FactionTag>Danger</FactionTag>
-      <Modifier>1</Modifier>
+      <Modifier>1.02</Modifier>
     </EconomyStats>
     <EconomyStats>
       <FactionTag>FCTM</FactionTag>
@@ -19,7 +19,7 @@
     </EconomyStats>
     <EconomyStats>
       <FactionTag>SPRT</FactionTag>
-      <Modifier>1</Modifier>
+      <Modifier>1.01</Modifier>
     </EconomyStats>
   </EconomyModifiers>
   <MilitaryModifiers>
@@ -44,8 +44,16 @@
       <FleetPower>100</FleetPower>
     </MilitaryStats>
   </MilitaryModifiers>
+  <TemporaryStates />
   <Salt>1upm1RzvPkzZv6VC</Salt>
   <Export>true</Export>
   <ExportIntervalSeconds>900</ExportIntervalSeconds>
   <ForceWorldConfig>true</ForceWorldConfig>
+  <MaxEconomyPower>2</MaxEconomyPower>
+  <MaxMilitaryPower>5</MaxMilitaryPower>
+  <DoNotSelfRegenEconomyAbove>1.5</DoNotSelfRegenEconomyAbove>
+  <DoNotSelfRegenMilitaryAbove>1.5</DoNotSelfRegenMilitaryAbove>
+  <SelfRegenByValue>0.01</SelfRegenByValue>
+  <SelfRegenInMinutes>60</SelfRegenInMinutes>
+  <SelfRegenRandomChance>0.5</SelfRegenRandomChance>
 </Persistence>

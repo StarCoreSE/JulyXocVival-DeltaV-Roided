@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LootConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LootEnabled>true</LootEnabled>
+  <SmartLoot>true</SmartLoot>
+  <LootChance>0.3</LootChance>
+  <MaxItemsPerContainer>3</MaxItemsPerContainer>
+  <MaxContainers>5</MaxContainers>
+  <IncreaseByTerminalBlocks>25</IncreaseByTerminalBlocks>
+  <LootMultiplierLg>20</LootMultiplierLg>
+  <LootMultiplierSg>5</LootMultiplierSg>
+  <Blacklist>
+    <string>Component;ZoneChip</string>
+    <string>Component;Tech2x</string>
+    <string>Component;Tech3x</string>
+    <string>Component;Tech4x</string>
+    <string>Component;Tech5x</string>
+    <string>Component;Tech6x</string>
+    <string>Component;Tech7x</string>
+    <string>Component;Tech8x</string>
+    <string>Component;Tech16x</string>
+    <string>Component;AdminKit</string>
+    <string>Component;ChilloutToken</string>
+    <string>Component;UnknownTechnology</string>
+    <string>Component;MESThrust</string>
+    <string>Component;ProprietaryTech</string>
+    <string>Component;InhibitorChip</string>
+    <string>Component;AdminPlate</string>
+    <string>Component;PrototechPanel</string>
+    <string>Component;PrototechCapacitor</string>
+    <string>Component;PrototechMachinery</string>
+    <string>Component;PrototechCircuitry</string>
+    <string>Component;PrototechCapacitor</string>
+    <string>Component;PrototechCoolingUnit</string>
+  </Blacklist>
+  <LootItems>
+    <LootItem>
+      <Type>Ingot</Type>
+      <SubType>Cobalt</SubType>
+      <Chance>0.5</Chance>
+      <AmountMin>100</AmountMin>
+      <AmountMax>1000</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Ingot</Type>
+      <SubType>Gold</SubType>
+      <Chance>0.2</Chance>
+      <AmountMin>100</AmountMin>
+      <AmountMax>1000</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Ingot</Type>
+      <SubType>Iron</SubType>
+      <Chance>0.8</Chance>
+      <AmountMin>100</AmountMin>
+      <AmountMax>1000</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Ingot</Type>
+      <SubType>Platinum</SubType>
+      <Chance>0.1</Chance>
+      <AmountMin>25</AmountMin>
+      <AmountMax>200</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Ingot</Type>
+      <SubType>Silver</SubType>
+      <Chance>0.25</Chance>
+      <AmountMin>100</AmountMin>
+      <AmountMax>1000</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Ingot</Type>
+      <SubType>Uranium</SubType>
+      <Chance>0.15</Chance>
+      <AmountMin>25</AmountMin>
+      <AmountMax>200</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Ingot</Type>
+      <SubType>Magnesium</SubType>
+      <Chance>0.25</Chance>
+      <AmountMin>250</AmountMin>
+      <AmountMax>1000</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>Construction</SubType>
+      <Chance>0.5</Chance>
+      <AmountMin>10</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>Detector</SubType>
+      <Chance>0.4</Chance>
+      <AmountMin>1</AmountMin>
+      <AmountMax>5</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>Explosives</SubType>
+      <Chance>0.25</Chance>
+      <AmountMin>10</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>Girder</SubType>
+      <Chance>0.25</Chance>
+      <AmountMin>10</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>GravityGenerator</SubType>
+      <Chance>0.1</Chance>
+      <AmountMin>1</AmountMin>
+      <AmountMax>5</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>InteriorPlate</SubType>
+      <Chance>0.5</Chance>
+      <AmountMin>10</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>LargeTube</SubType>
+      <Chance>0.25</Chance>
+      <AmountMin>1</AmountMin>
+      <AmountMax>10</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>Medical</SubType>
+      <Chance>0.2</Chance>
+      <AmountMin>1</AmountMin>
+      <AmountMax>15</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>MetalGrid</SubType>
+      <Chance>0.4</Chance>
+      <AmountMin>10</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>Motor</SubType>
+      <Chance>0.4</Chance>
+      <AmountMin>10</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>PowerCell</SubType>
+      <Chance>0.3</Chance>
+      <AmountMin>2</AmountMin>
+      <AmountMax>10</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>Reactor</SubType>
+      <Chance>0.2</Chance>
+      <AmountMin>10</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>SmallTube</SubType>
+      <Chance>0.5</Chance>
+      <AmountMin>10</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>SolarCell</SubType>
+      <Chance>0.4</Chance>
+      <AmountMin>5</AmountMin>
+      <AmountMax>25</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>Superconductor</SubType>
+      <Chance>0.2</Chance>
+      <AmountMin>10</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Component</Type>
+      <SubType>Thrust</SubType>
+      <Chance>0.2</Chance>
+      <AmountMin>10</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Consumable</Type>
+      <SubType>ClangCola</SubType>
+      <Chance>0.3</Chance>
+      <AmountMin>5</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Consumable</Type>
+      <SubType>CosmicCoffee</SubType>
+      <Chance>0.3</Chance>
+      <AmountMin>5</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Consumable</Type>
+      <SubType>Powerkit</SubType>
+      <Chance>0.3</Chance>
+      <AmountMin>5</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+    <LootItem>
+      <Type>Consumable</Type>
+      <SubType>Medkit</SubType>
+      <Chance>0.3</Chance>
+      <AmountMin>5</AmountMin>
+      <AmountMax>50</AmountMax>
+      <Conditions />
+    </LootItem>
+  </LootItems>
+</LootConfig>

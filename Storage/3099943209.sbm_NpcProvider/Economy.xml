@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
 <EconomyConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <EconomyEnabled>true</EconomyEnabled>
+  <TradeStationsHaveTerritories>true</TradeStationsHaveTerritories>
+  <TerritoryRadius>250000</TerritoryRadius>
   <EconomyRefresh>1200</EconomyRefresh>
   <EconomyStations>
     <EconomyStation>
@@ -26,6 +28,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.9550817-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -46,6 +50,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.9560825-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -70,6 +76,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.9560825-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -90,6 +98,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -115,6 +125,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -140,6 +152,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -165,6 +179,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -190,6 +206,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>true</Planetary>
@@ -215,6 +233,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -240,6 +260,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -265,6 +287,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -290,6 +314,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -315,6 +341,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -340,6 +368,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>true</Planetary>
@@ -365,6 +395,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -390,6 +422,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -415,6 +449,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -440,6 +476,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -465,6 +503,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>true</Planetary>
@@ -490,6 +530,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -515,6 +557,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -540,6 +584,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -565,6 +611,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -590,6 +638,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -615,6 +665,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
     <EconomyStation>
       <Planetary>false</Planetary>
@@ -640,6 +692,8 @@
       <UpkeepCollectionTime>2025-07-23T15:54:13.95658-05:00</UpkeepCollectionTime>
       <PendingUpkeepPayments>0</PendingUpkeepPayments>
       <Profits>0</Profits>
+      <Indestructible>false</Indestructible>
+      <Control>100</Control>
     </EconomyStation>
   </EconomyStations>
   <NoDefaultSellGrids>false</NoDefaultSellGrids>
@@ -654,7 +708,11 @@
   <InvestmentMilitaryOfferModifier>1</InvestmentMilitaryOfferModifier>
   <FreePortOfferModifier>1</FreePortOfferModifier>
   <TriggerSiegeOfferModifier>1</TriggerSiegeOfferModifier>
+  <WarBondModifier>1</WarBondModifier>
+  <BoostControlModifier>1</BoostControlModifier>
+  <SupportBattlePlans>1</SupportBattlePlans>
   <ConvoyOfferModifier>1</ConvoyOfferModifier>
+  <InvestmentFreePortControlModifier>1</InvestmentFreePortControlModifier>
   <FreePortPercentage>0.2</FreePortPercentage>
   <FreePortUpkeep>200000</FreePortUpkeep>
   <BuyPriceModifier>1</BuyPriceModifier>

@@ -1,5 +1,5 @@
-[16:01:35.847] [T1] [DS=False] DEBUG | Log Started
-[16:01:35.880] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[02:35:33.212] [T1] [DS=False] DEBUG | Log Started
+[02:35:33.239] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -1130,9 +1130,9 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ShipConnector/AQD_SG_ConnectorSmall
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_UpgradeModule/SlipspaceCoreSmall
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_UpgradeModule/SlipspaceCoreLarge
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Collector/Quantum_Tether_Small
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_Collector/Quantum_Tether_Medium
@@ -1204,8 +1204,104 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ContractBlock/MissionBlockSGSlim
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_JumpDrive/SlipspaceCoreSmall
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_JumpDrive/SlipspaceCoreLarge
+->-> Unable to retrieve MyCubeBlockDefinition
+-> Setting = MyObjectBuilder_Drill/LargeBlockDrillReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Drill/SmallBlockDrillReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ShipGrinder/LargeShipGrinderReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ShipGrinder/SmallShipGrinderReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ShipWelder/LargeShipWelderReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ShipWelder/SmallShipWelderReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_FunctionalBlock/LargeBlockAlgaeFarmReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_OxygenFarm/LargeBlockOxygenFarmReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_InteriorLight/LargeBlockInsetTerrariumDesert
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_InteriorLight/LargeBlockInsetTerrariumForest
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_SurvivalKit/SurvivalKitLargeReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_SurvivalKit/SurvivalKitSmallReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_InteriorLight/LargeInsetPlanter
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_FunctionalBlock/LargeBlockConduitDamaged
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_InteriorLight/LargeBlockConduitLight
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_InteriorLight/LargeBlockConduitLightInv
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_OreDetector/LargeOreDetectorReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_OreDetector/SmallOreDetectorReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Door/LargeBlockCentredDoor
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Door/LargeBlockCentredDoorGlass
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Door/LargeBlockHalfCentredDoor
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Door/LargeBlockHalfCentredDoorGlass
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Door/SmallBlockCentredDoor
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Door/SmallBlockCentredDoorGlass
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_HydrogenEngine/LargeHydrogenEngineReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_HydrogenEngine/SmallHydrogenEngineReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Cockpit/LargeBlockSuspendedControlSeat
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Cockpit/LargeBlockSuspendedControlSeatB
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Cockpit/SmallBlockSuspendedControlSeat
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Cockpit/SmallBlockSuspendedControlSeatB
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_JumpDrive/LargeJumpDriveReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrustReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_LandingGear/LargeBlockLandingGearReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_LandingGear/SmallBlockLandingGearReskin
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_InteriorLight/LargeBlockTrofferLight
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_InteriorLight/LargeBlockHalfTrofferLight
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_InteriorLight/LargeBlockHalfTrofferLightInv
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Door/CorridorRoundDoorInv
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_CryoChamber/LargeBlockBedFree
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_FunctionalBlock/LargeBlockAlgaeFarm
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_FunctionalBlock/LargeBlockFarmPlot
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Assembler/FoodProcessor
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_OxygenGenerator/IrrigationSystem
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Cockpit/AQD_SG_CompactControlSeat
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_Cockpit/AQD_SG_CompactSeat
 ->-> Setting added successfully
 
 BeforeStart() - Checking Entity Components

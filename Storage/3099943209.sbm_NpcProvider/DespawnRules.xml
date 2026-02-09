@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<NpcDespawnRules xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Blacklist>
+    <string>(NPC-ECONOMY</string>
+  </Blacklist>
+  <DespawnEnabled>true</DespawnEnabled>
+  <DespawnUnnamedNpc>true</DespawnUnnamedNpc>
+  <DespawnUnowned>true</DespawnUnowned>
+  <DespawnPlayerDistance>15000</DespawnPlayerDistance>
+  <DespawnAroundSafeZones>true</DespawnAroundSafeZones>
+  <DespawnTimer>30</DespawnTimer>
+  <PlayerGridsPreventDespawn>false</PlayerGridsPreventDespawn>
+  <OnlyNonStaticGridsPreventDespawn>false</OnlyNonStaticGridsPreventDespawn>
+</NpcDespawnRules>

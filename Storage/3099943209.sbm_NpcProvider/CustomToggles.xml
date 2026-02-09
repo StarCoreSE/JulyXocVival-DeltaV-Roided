@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CustomToggles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShowRaidInfo>true</ShowRaidInfo>
+  <WriteRaidInfo>true</WriteRaidInfo>
+  <StartMissionsWithCommand>true</StartMissionsWithCommand>
+  <DisableNexusSiegeSync>false</DisableNexusSiegeSync>
+  <UseAllRemoteTypes>false</UseAllRemoteTypes>
+  <DisableParallelSpawns>false</DisableParallelSpawns>
+  <AllowCrossInstanceSieges>true</AllowCrossInstanceSieges>
+  <SiegeProtectionPeriod>0</SiegeProtectionPeriod>
+  <NpcAutonomy>false</NpcAutonomy>
+  <AutonomousSieges>true</AutonomousSieges>
+  <CanAttemptFutileAttacks>true</CanAttemptFutileAttacks>
+  <MilitaryPowerSiegeCost>0.05</MilitaryPowerSiegeCost>
+  <EconomyBasedEarlyWarning>true</EconomyBasedEarlyWarning>
+  <MilitaryBasedEarlyInterception>true</MilitaryBasedEarlyInterception>
+  <SiegeFleetSpawnInLimit>6</SiegeFleetSpawnInLimit>
+  <SyncUpkeepPayments>false</SyncUpkeepPayments>
+  <SyncDynamicEconomy>false</SyncDynamicEconomy>
+  <SyncMilitary>false</SyncMilitary>
+  <SyncEconomy>false</SyncEconomy>
+  <NexusMaster>false</NexusMaster>
+  <HideSpamDebugLog>true</HideSpamDebugLog>
+</CustomToggles>
