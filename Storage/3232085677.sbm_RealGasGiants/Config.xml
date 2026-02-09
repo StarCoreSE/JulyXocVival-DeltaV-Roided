@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <RealGasGiantsSettingsConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <OverrideFromConfig>true</OverrideFromConfig>
+  <OverrideFromConfig>false</OverrideFromConfig>
   <AllowChatCommands>true</AllowChatCommands>
   <GasGiantBlocksSun>true</GasGiantBlocksSun>
   <GasGiantAirDensity>30</GasGiantAirDensity>

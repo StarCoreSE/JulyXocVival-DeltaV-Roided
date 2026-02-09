@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>690097120000</ElapsedGameTime>
-  <SessionName>RingsOfSaturnSubvival</SessionName>
+  <ElapsedGameTime>690122080000</ElapsedGameTime>
+  <SessionName>testan</SessionName>
   <SpectatorPosition>
-    <Position x="-115728764.37355086" y="8552242.552464515" z="60430793.419208825" />
-    <Forward x="0.6457125" y="-0.0576185063" z="0.7614036" />
-    <Up x="-0.229290962" y="0.9364993" z="0.265320122" />
+    <Position x="-115728764.37355089" y="8552242.5524645038" z="60430793.419208832" />
+    <Forward x="0.6457125" y="-0.0576185" z="0.761403561" />
+    <Up x="-0.229290932" y="0.9364993" z="0.265320152" />
     <Orientation>
       <X>-0.155372992</X>
       <Y>0.9255058</Y>
@@ -21,13 +21,13 @@
   <ControlledObject>118338829513043268</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2026-02-09T04:41:37.6881439-06:00</LastSaveTime>
+  <LastSaveTime>2026-02-09T04:49:37.0024653-06:00</LastSaveTime>
   <SpectatorDistance>96.4506</SpectatorDistance>
   <WorkshopId xsi:nil="true" />
   <WorkshopId1 xsi:nil="true" />
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
-    <SelectedSlot>2</SelectedSlot>
+    <SelectedSlot xsi:nil="true" />
     <Slots>
       <Slot>
         <Index>0</Index>
@@ -72,7 +72,7 @@
     <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
-    <OnlineMode>OFFLINE</OnlineMode>
+    <OnlineMode>PUBLIC</OnlineMode>
     <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>1024</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
@@ -182,6 +182,7 @@
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
     <NPCGridClaimTimeLimit>120</NPCGridClaimTimeLimit>
     <SimplifiedSimulation>false</SimplifiedSimulation>
+    <SuppressedWarnings />
     <EnablePcuTrading>true</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
     <EnableSelectivePhysicsUpdates>false</EnableSelectivePhysicsUpdates>
@@ -223,6 +224,7 @@
     <GlobalEncounterMinRemovalTimer>0</GlobalEncounterMinRemovalTimer>
     <GlobalEncounterMaxRemovalTimer>0</GlobalEncounterMaxRemovalTimer>
     <GlobalEncounterRemovalTimeClock>0</GlobalEncounterRemovalTimeClock>
+    <EncounterDensity>0.35</EncounterDensity>
     <EncounterGeneratorVersion>6</EncounterGeneratorVersion>
     <EnablePlanetaryEncounters>false</EnablePlanetaryEncounters>
     <PlanetaryEncounterTimerMin>0</PlanetaryEncounterTimerMin>
@@ -244,8 +246,8 @@
     <ResetForageableItemsTimeM>30</ResetForageableItemsTimeM>
     <ResetForageableItemsDistance>3000</ResetForageableItemsDistance>
     <FoodConsumptionRate>0</FoodConsumptionRate>
-    <EnableSurvivalBuffs>true</EnableSurvivalBuffs>
-    <EnableReducedStatsOnRespawn>true</EnableReducedStatsOnRespawn>
+    <EnableSurvivalBuffs>false</EnableSurvivalBuffs>
+    <EnableReducedStatsOnRespawn>false</EnableReducedStatsOnRespawn>
     <RandomizeSeed>false</RandomizeSeed>
   </Settings>
   <ScriptManagerData>
@@ -5964,6 +5966,7 @@ MaxStockAmount=50
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -5974,11 +5977,11 @@ MaxStockAmount=50
       <Model>Default_Astronaut</Model>
       <ColorMask x="0.05" y="0.199999988" z="0.388345033" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2026-02-09T04:13:52.4425208-06:00</LastLoginTime>
+      <LastLoginTime>2026-02-09T04:49:29.6514653-06:00</LastLoginTime>
       <SavedCharacters>
         <long>118338829513043268</long>
       </SavedCharacters>
-      <LastLogoutTime>2026-02-09T04:41:37.6881439-06:00</LastLogoutTime>
+      <LastLogoutTime>2026-02-09T04:49:37.0024653-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -5990,7 +5993,7 @@ MaxStockAmount=50
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2026-02-09T04:13:55.7365188-06:00</LastLoginTime>
+      <LastLoginTime>2026-02-09T04:49:31.6854667-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
       <RespawnShips />
@@ -6004,7 +6007,7 @@ MaxStockAmount=50
       <DisplayName>ADM NPC1717</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2026-02-09T04:13:52.4395202-06:00</LastLoginTime>
+      <LastLoginTime>2026-02-09T04:49:29.6484677-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-07-02T06:23:11.1914996-05:00</LastLogoutTime>
       <RespawnShips />
@@ -6018,7 +6021,7 @@ MaxStockAmount=50
       <DisplayName>Dangerous Encounter</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2026-02-09T04:13:52.4395202-06:00</LastLoginTime>
+      <LastLoginTime>2026-02-09T04:49:29.6484677-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-07-21T18:43:43.8860693-05:00</LastLogoutTime>
       <RespawnShips />
@@ -6032,7 +6035,7 @@ MaxStockAmount=50
       <DisplayName>The Factorum</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2026-02-09T04:13:52.4395202-06:00</LastLoginTime>
+      <LastLoginTime>2026-02-09T04:49:29.6484677-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-10-18T16:07:52.0711852-05:00</LastLogoutTime>
       <RespawnShips />
@@ -6046,7 +6049,7 @@ MaxStockAmount=50
       <DisplayName>John Enceladus</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2026-02-09T04:13:52.4395202-06:00</LastLoginTime>
+      <LastLoginTime>2026-02-09T04:49:29.6484677-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-11-09T07:19:39.8283172-06:00</LastLogoutTime>
       <RespawnShips />
@@ -6060,7 +6063,7 @@ MaxStockAmount=50
       <DisplayName>Great Leader</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2026-02-09T04:13:52.4395202-06:00</LastLoginTime>
+      <LastLoginTime>2026-02-09T04:49:29.6484677-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-11-09T07:19:39.8283172-06:00</LastLogoutTime>
       <RespawnShips />
@@ -6286,6 +6289,8 @@ MaxStockAmount=50
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -6331,14 +6336,7 @@ MaxStockAmount=50
     <long>144115188075855937</long>
   </NonPlayerIdentities>
   <Gps>
-    <dictionary>
-      <item>
-        <Key>144115188075855895</Key>
-        <Value>
-          <Entries />
-        </Value>
-      </item>
-    </dictionary>
+    <dictionary />
   </Gps>
   <ContainerGridIds>
     <dictionary />
@@ -6479,7 +6477,7 @@ MaxStockAmount=50
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="0.151993513" y="-0.611667931" z="0.7763765" />
+      <SunDirectionNormalized x="0.154002383" y="-0.6108863" z="0.776596069" />
       <WeatherPlanetData>
         <MyObjectBuilder_WeatherPlanetData>
           <PlanetId>-4911161085436634825</PlanetId>
@@ -68964,7 +68962,7 @@ MaxStockAmount=50
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>6733</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>9317</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
@@ -68994,7 +68992,7 @@ MaxStockAmount=50
           <OwnerIdentifier>144115188075855896</OwnerIdentifier>
           <Account>
             <OwnerIdentifier>144115188075855896</OwnerIdentifier>
-            <Balance>100000010000</Balance>
+            <Balance>50000010000</Balance>
             <Log />
           </Account>
         </MyObjectBuilder_AccountEntry>
@@ -69002,7 +69000,7 @@ MaxStockAmount=50
           <OwnerIdentifier>258961289160008772</OwnerIdentifier>
           <Account>
             <OwnerIdentifier>258961289160008772</OwnerIdentifier>
-            <Balance>100000000000</Balance>
+            <Balance>50000000000</Balance>
             <Log />
           </Account>
         </MyObjectBuilder_AccountEntry>
@@ -69058,7 +69056,7 @@ MaxStockAmount=50
           <OwnerIdentifier>235341129158470095</OwnerIdentifier>
           <Account>
             <OwnerIdentifier>235341129158470095</OwnerIdentifier>
-            <Balance>101000000000</Balance>
+            <Balance>51000000000</Balance>
             <Log />
           </Account>
         </MyObjectBuilder_AccountEntry>
@@ -69066,7 +69064,7 @@ MaxStockAmount=50
           <OwnerIdentifier>144115188075855900</OwnerIdentifier>
           <Account>
             <OwnerIdentifier>144115188075855900</OwnerIdentifier>
-            <Balance>101000010000</Balance>
+            <Balance>51000010000</Balance>
             <Log />
           </Account>
         </MyObjectBuilder_AccountEntry>
@@ -69090,7 +69088,7 @@ MaxStockAmount=50
           <OwnerIdentifier>144115188075855902</OwnerIdentifier>
           <Account>
             <OwnerIdentifier>144115188075855902</OwnerIdentifier>
-            <Balance>96633752000</Balance>
+            <Balance>146633752000</Balance>
             <Log />
           </Account>
         </MyObjectBuilder_AccountEntry>
@@ -69098,7 +69096,7 @@ MaxStockAmount=50
           <OwnerIdentifier>144115188075855901</OwnerIdentifier>
           <Account>
             <OwnerIdentifier>144115188075855901</OwnerIdentifier>
-            <Balance>97690342000</Balance>
+            <Balance>147690342000</Balance>
             <Log />
           </Account>
         </MyObjectBuilder_AccountEntry>
@@ -69442,7 +69440,7 @@ MaxStockAmount=50
           <OwnerIdentifier>144115188075855903</OwnerIdentifier>
           <Account>
             <OwnerIdentifier>144115188075855903</OwnerIdentifier>
-            <Balance>100000010000</Balance>
+            <Balance>50000010000</Balance>
             <Log />
           </Account>
         </MyObjectBuilder_AccountEntry>
@@ -69530,7 +69528,7 @@ MaxStockAmount=50
           <OwnerIdentifier>240122912177501043</OwnerIdentifier>
           <Account>
             <OwnerIdentifier>240122912177501043</OwnerIdentifier>
-            <Balance>100000000000</Balance>
+            <Balance>50000000000</Balance>
             <Log />
           </Account>
         </MyObjectBuilder_AccountEntry>
@@ -69554,7 +69552,7 @@ MaxStockAmount=50
           <OwnerIdentifier>255219718770783453</OwnerIdentifier>
           <Account>
             <OwnerIdentifier>255219718770783453</OwnerIdentifier>
-            <Balance>101000000000</Balance>
+            <Balance>51000000000</Balance>
             <Log />
           </Account>
         </MyObjectBuilder_AccountEntry>
@@ -69562,12 +69560,12 @@ MaxStockAmount=50
           <OwnerIdentifier>271138045288368249</OwnerIdentifier>
           <Account>
             <OwnerIdentifier>271138045288368249</OwnerIdentifier>
-            <Balance>101000000000</Balance>
+            <Balance>51000000000</Balance>
             <Log />
           </Account>
         </MyObjectBuilder_AccountEntry>
       </Accounts>
-      <OverallBalance>1751066551000</OverallBalance>
+      <OverallBalance>1451066551000</OverallBalance>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_NeutralShipSpawner">
       <ShipsInProgress />
@@ -69583,70 +69581,6 @@ MaxStockAmount=50
       <MarkedAreas>
         <EmptyArea>
           <Position>
-            <X>62814384.1401545</X>
-            <Y>-9156346.8802602328</Y>
-            <Z>57898576.324895613</Z>
-          </Position>
-          <Radius>8327.896</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
-            <X>71098022.301790312</X>
-            <Y>-3423240.8859950705</Y>
-            <Z>-73519235.883679226</Z>
-          </Position>
-          <Radius>7229.674</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
-            <X>-40581701.297355115</X>
-            <Y>64030.916366685065</Y>
-            <Z>80094775.267376512</Z>
-          </Position>
-          <Radius>5122.18262</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
-            <X>144903917.41700378</X>
-            <Y>-13839341.631430063</Y>
-            <Z>-12620595.205406267</Z>
-          </Position>
-          <Radius>8486.368</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
-            <X>-23916294.064136464</X>
-            <Y>7195752.90222041</Y>
-            <Z>-95682062.916135281</Z>
-          </Position>
-          <Radius>13765.0713</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
-            <X>95459238.763730884</X>
-            <Y>-6156669.2502852976</Y>
-            <Z>-67384685.521755844</Z>
-          </Position>
-          <Radius>11462.4434</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
-            <X>53009775.4601523</X>
-            <Y>-2747046.7531688879</Y>
-            <Z>-50678208.856926836</Z>
-          </Position>
-          <Radius>11548.748</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
-            <X>32640872.941250551</X>
-            <Y>-9164127.027192384</Y>
-            <Z>118212785.66134658</Z>
-          </Position>
-          <Radius>4311.28</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
             <X>47700190.443910427</X>
             <Y>-8589636.3217131011</Y>
             <Z>76792752.546441212</Z>
@@ -69655,11 +69589,27 @@ MaxStockAmount=50
         </EmptyArea>
         <EmptyArea>
           <Position>
+            <X>62814384.1401545</X>
+            <Y>-9156346.8802602328</Y>
+            <Z>57898576.324895613</Z>
+          </Position>
+          <Radius>8327.896</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
             <X>103387072.80681044</X>
             <Y>-8149580.1653189957</Y>
             <Z>-43382135.30724097</Z>
           </Position>
           <Radius>10701.4844</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-23916294.064136464</X>
+            <Y>7195752.90222041</Y>
+            <Z>-95682062.916135281</Z>
+          </Position>
+          <Radius>13765.0713</Radius>
         </EmptyArea>
         <EmptyArea>
           <Position>
@@ -69679,11 +69629,35 @@ MaxStockAmount=50
         </EmptyArea>
         <EmptyArea>
           <Position>
+            <X>71098022.301790312</X>
+            <Y>-3423240.8859950705</Y>
+            <Z>-73519235.883679226</Z>
+          </Position>
+          <Radius>7229.674</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>95459238.763730884</X>
+            <Y>-6156669.2502852976</Y>
+            <Z>-67384685.521755844</Z>
+          </Position>
+          <Radius>11462.4434</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
             <X>85728688.501055226</X>
             <Y>-7110945.6467954563</Y>
             <Z>-28838057.066201329</Z>
           </Position>
           <Radius>15200.68</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>144903917.41700378</X>
+            <Y>-13839341.631430063</Y>
+            <Z>-12620595.205406267</Z>
+          </Position>
+          <Radius>8486.368</Radius>
         </EmptyArea>
         <EmptyArea>
           <Position>
@@ -69703,11 +69677,35 @@ MaxStockAmount=50
         </EmptyArea>
         <EmptyArea>
           <Position>
+            <X>32640872.941250551</X>
+            <Y>-9164127.027192384</Y>
+            <Z>118212785.66134658</Z>
+          </Position>
+          <Radius>4311.28</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
             <X>-73362964.7380999</X>
             <Y>12680679.725609457</Y>
             <Z>-106487258.03598934</Z>
           </Position>
           <Radius>13397.2646</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-40581701.297355115</X>
+            <Y>64030.916366685065</Y>
+            <Z>80094775.267376512</Z>
+          </Position>
+          <Radius>5122.18262</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>53009775.4601523</X>
+            <Y>-2747046.7531688879</Y>
+            <Z>-50678208.856926836</Z>
+          </Position>
+          <Radius>11548.748</Radius>
         </EmptyArea>
         <EmptyArea>
           <Position>
@@ -69738,4 +69736,7 @@ MaxStockAmount=50
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>

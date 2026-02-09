@@ -7,7 +7,7 @@
     <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
-    <OnlineMode>OFFLINE</OnlineMode>
+    <OnlineMode>PUBLIC</OnlineMode>
     <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>1024</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
@@ -117,6 +117,7 @@
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
     <NPCGridClaimTimeLimit>120</NPCGridClaimTimeLimit>
     <SimplifiedSimulation>false</SimplifiedSimulation>
+    <SuppressedWarnings />
     <EnablePcuTrading>true</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
     <EnableSelectivePhysicsUpdates>false</EnableSelectivePhysicsUpdates>
@@ -158,6 +159,7 @@
     <GlobalEncounterMinRemovalTimer>0</GlobalEncounterMinRemovalTimer>
     <GlobalEncounterMaxRemovalTimer>0</GlobalEncounterMaxRemovalTimer>
     <GlobalEncounterRemovalTimeClock>0</GlobalEncounterRemovalTimeClock>
+    <EncounterDensity>0.35</EncounterDensity>
     <EncounterGeneratorVersion>6</EncounterGeneratorVersion>
     <EnablePlanetaryEncounters>false</EnablePlanetaryEncounters>
     <PlanetaryEncounterTimerMin>0</PlanetaryEncounterTimerMin>
@@ -179,8 +181,8 @@
     <ResetForageableItemsTimeM>30</ResetForageableItemsTimeM>
     <ResetForageableItemsDistance>3000</ResetForageableItemsDistance>
     <FoodConsumptionRate>0</FoodConsumptionRate>
-    <EnableSurvivalBuffs>true</EnableSurvivalBuffs>
-    <EnableReducedStatsOnRespawn>true</EnableReducedStatsOnRespawn>
+    <EnableSurvivalBuffs>false</EnableSurvivalBuffs>
+    <EnableReducedStatsOnRespawn>false</EnableReducedStatsOnRespawn>
     <RandomizeSeed>false</RandomizeSeed>
   </Settings>
   <Mods>
@@ -219,7 +221,7 @@
       <PublishedFileId>1354870812</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Advanced Gravity Collector">
+    <ModItem>
       <Name>3346612989.sbm</Name>
       <PublishedFileId>3346612989</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -304,12 +306,12 @@
       <PublishedFileId>801185519</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="ConfigurableGridPoints">
+    <ModItem>
       <Name>3346579329.sbm</Name>
       <PublishedFileId>3346579329</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="ConfigurableGridPointsAddon">
+    <ModItem>
       <Name>3346579398.sbm</Name>
       <PublishedFileId>3346579398</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -344,7 +346,7 @@
       <PublishedFileId>3373765186</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="DeltaVMoonlets">
+    <ModItem>
       <Name>3347790874.sbm</Name>
       <PublishedFileId>3347790874</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -399,7 +401,7 @@
       <PublishedFileId>3099943209</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="NPC.Pack.EnceladusCo">
+    <ModItem>
       <Name>3326052965.sbm</Name>
       <PublishedFileId>3326052965</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -409,7 +411,7 @@
       <PublishedFileId>3355235773</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="NPC.Pack.GanymedeLiberationFront">
+    <ModItem>
       <Name>3326053117.sbm</Name>
       <PublishedFileId>3326053117</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -444,12 +446,12 @@
       <PublishedFileId>3347754939</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="SC_RelativeTopSpeed_Logarithmic_Angular">
+    <ModItem>
       <Name>3206802244.sbm</Name>
       <PublishedFileId>3206802244</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Slipspace Engine">
+    <ModItem>
       <Name>3260158135.sbm</Name>
       <PublishedFileId>3260158135</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -494,7 +496,7 @@
       <PublishedFileId>3346576256</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="TSTSSESAdminBlocks">
+    <ModItem>
       <Name>3347363756.sbm</Name>
       <PublishedFileId>3347363756</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -504,7 +506,7 @@
       <PublishedFileId>3346579680</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="TSTSSESHangar">
+    <ModItem>
       <Name>3355214579.sbm</Name>
       <PublishedFileId>3355214579</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -536,5 +538,5 @@
     </ModItem>
   </Mods>
   <SessionName>RingsOfSaturnSubvival</SessionName>
-  <LastSaveTime>2026-02-09T04:41:37.6881439-06:00</LastSaveTime>
+  <LastSaveTime>2026-02-09T04:49:37.0024653-06:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>

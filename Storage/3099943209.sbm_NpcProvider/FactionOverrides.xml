@@ -2,17 +2,7 @@
 <FactionDefOverrides xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Overrides>
     <FactionDefOverride>
-      <Tag>GLF-NPC</Tag>
-      <CanSpawnCombatShipsInMissions>true</CanSpawnCombatShipsInMissions>
-      <CanSpawnInRandomEncounters>true</CanSpawnInRandomEncounters>
-      <RandomEncountersOnlyInTerritories>false</RandomEncountersOnlyInTerritories>
-      <CanSpawnMissions>true</CanSpawnMissions>
-      <AdditionalCombatShips />
-      <AdditionalMilitaryBuildings />
-      <AdditionalCivilianBuildings />
-    </FactionDefOverride>
-    <FactionDefOverride>
-      <Tag>SPRT</Tag>
+      <Tag>ECO-NPC</Tag>
       <CanSpawnCombatShipsInMissions>true</CanSpawnCombatShipsInMissions>
       <CanSpawnInRandomEncounters>true</CanSpawnInRandomEncounters>
       <RandomEncountersOnlyInTerritories>false</RandomEncountersOnlyInTerritories>
@@ -32,7 +22,17 @@
       <AdditionalCivilianBuildings />
     </FactionDefOverride>
     <FactionDefOverride>
-      <Tag>ECO-NPC</Tag>
+      <Tag>SPRT</Tag>
+      <CanSpawnCombatShipsInMissions>true</CanSpawnCombatShipsInMissions>
+      <CanSpawnInRandomEncounters>true</CanSpawnInRandomEncounters>
+      <RandomEncountersOnlyInTerritories>false</RandomEncountersOnlyInTerritories>
+      <CanSpawnMissions>true</CanSpawnMissions>
+      <AdditionalCombatShips />
+      <AdditionalMilitaryBuildings />
+      <AdditionalCivilianBuildings />
+    </FactionDefOverride>
+    <FactionDefOverride>
+      <Tag>GLF-NPC</Tag>
       <CanSpawnCombatShipsInMissions>true</CanSpawnCombatShipsInMissions>
       <CanSpawnInRandomEncounters>true</CanSpawnInRandomEncounters>
       <RandomEncountersOnlyInTerritories>false</RandomEncountersOnlyInTerritories>
