@@ -1,5 +1,5 @@
-[02:35:33.212] [T1] [DS=False] DEBUG | Log Started
-[02:35:33.239] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[04:45:57.804] [T1] [DS=False] DEBUG | Log Started
+[04:45:58.184] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -1064,19 +1064,19 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_Gyro/AQD_LG_LargeGyro
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_InteriorTurret/DeltaV_LargeJammer
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_TextPanel/DeltaV_Search_Radar_Large
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_TextPanel/DeltaV_Track_Radar_Large
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_TextPanel/DeltaV_Search_Radar_Small
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_TextPanel/DeltaV_Track_Radar_Small
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_Beacon/LargeBlockIFFBeacon
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_Beacon/SmallBlockIFFBeacon
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_Decoy/LargeDecoy_MetalFoam
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_UpgradeModule/bobzone

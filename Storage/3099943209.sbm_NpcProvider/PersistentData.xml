@@ -11,15 +11,15 @@
     </EconomyStats>
     <EconomyStats>
       <FactionTag>Danger</FactionTag>
-      <Modifier>1.02</Modifier>
+      <Modifier>1.03</Modifier>
     </EconomyStats>
     <EconomyStats>
       <FactionTag>FCTM</FactionTag>
-      <Modifier>1</Modifier>
+      <Modifier>1.01</Modifier>
     </EconomyStats>
     <EconomyStats>
       <FactionTag>SPRT</FactionTag>
-      <Modifier>1.01</Modifier>
+      <Modifier>1.02</Modifier>
     </EconomyStats>
   </EconomyModifiers>
   <MilitaryModifiers>

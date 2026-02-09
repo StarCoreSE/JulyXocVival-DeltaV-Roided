@@ -184,6 +184,11 @@
     <RandomizeSeed>false</RandomizeSeed>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="[bugged-rewrite pending]Dynamic Asteroids">
+      <Name>3262577158.sbm</Name>
+      <PublishedFileId>3262577158</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="[QoL] Production Quota">
       <Name>2304715504.sbm</Name>
       <PublishedFileId>2304715504</PublishedFileId>
@@ -344,11 +349,6 @@
       <PublishedFileId>3347790874</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="DeltaVNebulousRadarAddon">
-      <Name>3350427063.sbm</Name>
-      <PublishedFileId>3350427063</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="DeltaVShipyards">
       <Name>3367780558.sbm</Name>
       <PublishedFileId>3367780558</PublishedFileId>
@@ -392,11 +392,6 @@
     <ModItem FriendlyName="MultiplayerPredictionSwitcher (Interpolated serverside grid control)">
       <Name>3032417765.sbm</Name>
       <PublishedFileId>3032417765</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Nebulous Radar Framework">
-      <Name>3290983434.sbm</Name>
-      <PublishedFileId>3290983434</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="NPC Provider (BB)">
@@ -541,5 +536,5 @@
     </ModItem>
   </Mods>
   <SessionName>RingsOfSaturnSubvival</SessionName>
-  <LastSaveTime>2026-02-09T02:29:34.7113712-06:00</LastSaveTime>
+  <LastSaveTime>2026-02-09T04:41:37.6881439-06:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
