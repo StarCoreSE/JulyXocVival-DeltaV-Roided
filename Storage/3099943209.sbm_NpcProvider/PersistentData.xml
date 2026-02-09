@@ -3,7 +3,7 @@
   <EconomyModifiers>
     <EconomyStats>
       <FactionTag>ECO-NPC</FactionTag>
-      <Modifier>1.01</Modifier>
+      <Modifier>1.03</Modifier>
     </EconomyStats>
     <EconomyStats>
       <FactionTag>GLF-NPC</FactionTag>

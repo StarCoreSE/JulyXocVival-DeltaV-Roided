@@ -12,7 +12,7 @@
       <AdditionalCivilianBuildings />
     </FactionDefOverride>
     <FactionDefOverride>
-      <Tag>FCTM</Tag>
+      <Tag>SPRT</Tag>
       <CanSpawnCombatShipsInMissions>true</CanSpawnCombatShipsInMissions>
       <CanSpawnInRandomEncounters>true</CanSpawnInRandomEncounters>
       <RandomEncountersOnlyInTerritories>false</RandomEncountersOnlyInTerritories>
@@ -22,7 +22,7 @@
       <AdditionalCivilianBuildings />
     </FactionDefOverride>
     <FactionDefOverride>
-      <Tag>SPRT</Tag>
+      <Tag>FCTM</Tag>
       <CanSpawnCombatShipsInMissions>true</CanSpawnCombatShipsInMissions>
       <CanSpawnInRandomEncounters>true</CanSpawnInRandomEncounters>
       <RandomEncountersOnlyInTerritories>false</RandomEncountersOnlyInTerritories>
